@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:id="@+desenho/txt"
+		android:layout_height="wrap_content"
+		android:text="Desenho"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center" />
+		
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:background="#ff0000"
+		android:layout_height="310dp">
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+desenho/img1"
+			android:layout_x="0dp"
+			android:layout_y="40dp"
+			android:layout_gravity="center">
+		</ImageView>
+	</RelativeLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+desenho/cinza"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="TonsdeCinza">
+		</Button>
+
+		<Button
+			android:id="@+desenho/blur"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Blur">
+		</Button>
+
+		<Button
+			android:id="@+desenho/sat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Saturacao">
+		</Button>
+
+		<Button
+			android:id="@+desenho/toon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Toon">
+		</Button>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+desenho/contorno"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Contorno">
+		</Button>
+
+		<Button
+			android:id="@+desenho/nanquim"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Nanquim">
+		</Button>
+
+		<Button
+			android:id="@+desenho/negativo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="Negativo">
+		</Button>
+		
+		<Button
+			android:id="@+desenho/all"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:text="All">
+		</Button>
+
+	</LinearLayout>
+</LinearLayout>
